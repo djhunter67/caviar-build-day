@@ -1,0 +1,22 @@
+13:44:05 [DEBUG] (1) build_day_x_web_browser: Logger initialized
+13:44:05 [INFO] starting 12 workers
+13:44:05 [INFO] Actix runtime found; starting in Actix runtime
+13:44:06 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 638 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000316
+13:44:06 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000209
+13:44:23 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 646 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000179
+13:44:23 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000383
+13:58:09 [INFO] SIGINT received; starting forced shutdown
+13:58:09 [DEBUG] (14) actix_server::accept: paused accepting connections on 0.0.0.0:8080
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] shutting down idle worker
+13:58:09 [INFO] accept thread stopped
