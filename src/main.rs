@@ -45,7 +45,7 @@ async fn main() {
             .route("/styles.css", web::get().to(send_css_file))
             .service(web::resource("/home").to(|| async {
                 IndexTemplate {
-		    title: "Home",
+                    title: "Home",
                     name: "Hunter, Hunter",
                 }
             }))

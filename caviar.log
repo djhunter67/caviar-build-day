@@ -1,22 +1,126 @@
-13:44:05 [DEBUG] (1) build_day_x_web_browser: Logger initialized
-13:44:05 [INFO] starting 12 workers
-13:44:05 [INFO] Actix runtime found; starting in Actix runtime
-13:44:06 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 638 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000316
-13:44:06 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000209
-13:44:23 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 646 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000179
-13:44:23 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000383
-13:58:09 [INFO] SIGINT received; starting forced shutdown
-13:58:09 [DEBUG] (14) actix_server::accept: paused accepting connections on 0.0.0.0:8080
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] shutting down idle worker
-13:58:09 [INFO] accept thread stopped
+17:00:23 [DEBUG] (1) build_day_x_web_browser: Logger initialized
+17:00:23 [INFO] starting 12 workers
+17:00:23 [INFO] Actix runtime found; starting in Actix runtime
+17:00:26 [INFO] 127.0.0.1 "GET /index HTTP/1.1" 404 0 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000263
+17:00:29 [INFO] 127.0.0.1 "GET /index HTTP/1.1" 404 0 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000558
+17:00:30 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000569
+17:00:30 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000260
+17:00:31 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000238
+17:00:31 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000171
+17:00:32 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000462
+17:00:32 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000184
+17:00:32 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000439
+17:00:32 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000200
+17:00:32 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000201
+17:00:32 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000184
+17:00:33 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000202
+17:00:33 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000172
+17:00:33 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000348
+17:00:33 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000475
+17:00:34 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000471
+17:00:34 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000176
+17:00:34 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000433
+17:00:34 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000346
+17:00:35 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000303
+17:00:35 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000191
+17:00:35 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000565
+17:00:35 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000208
+17:00:35 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000471
+17:00:36 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000346
+17:00:36 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000428
+17:00:36 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000701
+17:00:36 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000253
+17:00:36 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000192
+17:00:37 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000281
+17:00:37 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000185
+17:00:38 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000134
+17:00:38 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000207
+17:00:50 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000585
+17:00:50 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000172
+17:00:51 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000196
+17:00:51 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000206
+17:00:51 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000508
+17:00:51 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000246
+17:00:51 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000325
+17:00:51 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000373
+17:00:52 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000189
+17:00:52 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000381
+17:00:52 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000539
+17:00:52 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000415
+17:00:53 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000172
+17:00:53 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000147
+17:00:56 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000161
+17:00:56 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000180
+17:00:57 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000204
+17:00:57 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000337
+17:00:59 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000196
+17:00:59 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000287
+17:01:00 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000592
+17:01:00 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000378
+17:01:03 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000558
+17:01:03 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000289
+17:01:04 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000212
+17:01:04 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000192
+17:01:05 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000299
+17:01:05 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000188
+17:01:05 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000433
+17:01:05 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000180
+17:01:06 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000531
+17:01:06 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000381
+17:01:07 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000421
+17:01:07 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000201
+17:01:07 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000459
+17:01:07 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000364
+17:01:07 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000368
+17:01:07 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000336
+17:01:08 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000328
+17:01:08 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000239
+17:01:08 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000472
+17:01:08 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000458
+17:01:09 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000528
+17:01:09 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000342
+17:01:10 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000227
+17:01:10 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000222
+17:01:13 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000270
+17:01:13 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000407
+17:01:14 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000546
+17:01:14 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000370
+17:01:34 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000400
+17:01:34 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000228
+17:01:34 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000532
+17:01:34 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000186
+17:01:36 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000164
+17:01:36 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000404
+17:01:38 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000282
+17:01:38 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000405
+17:01:39 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000481
+17:01:39 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000215
+17:01:39 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000653
+17:01:39 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000211
+17:01:40 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000171
+17:01:40 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000202
+17:01:40 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000185
+17:01:40 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000178
+17:01:41 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000219
+17:01:41 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000298
+17:01:41 [INFO] 127.0.0.1 "GET /home HTTP/1.1" 200 718 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000472
+17:01:41 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000246
+17:01:41 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000436
+17:01:41 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000170
+17:02:03 [INFO] 127.0.0.1 "GET / HTTP/1.1" 200 727 "http://localhost:8080/home" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000464
+17:02:03 [INFO] 127.0.0.1 "GET /styles.css HTTP/1.1" 200 129 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" 0.000411
+17:09:05 [INFO] SIGINT received; starting forced shutdown
+17:09:05 [DEBUG] (14) actix_server::accept: paused accepting connections on 0.0.0.0:8080
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] shutting down idle worker
+17:09:05 [INFO] accept thread stopped
